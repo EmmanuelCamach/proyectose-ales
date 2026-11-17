@@ -9,7 +9,7 @@ CORTE_SUPERIOR = 10000
 ORDEN_FIR = 100
 VENTANA_FIR = 'hamming'  # 'hamming' o 'hanning'.
 COMPRESION_DCT = 0  # Porcentaje de coeficientes anulados; 0 desactiva la compresión.
-# Tres subbandas seleccionadas por validación cruzada en los 164 archivos de entrenamiento.
+# Tres subbandas fijadas en la configuración. El repositorio no incluye el script ni los resultados de la selección de las fronteras.
 # FFT positiva: [0:105], [105:255], [255:1025]. Incluye Nyquist.
 FRONTERAS_SUBBANDAS = [0, 105, 255, N_FFT // 2 + 1]
 LIMITES_HZ = [0, 105 * SAMPLE_RATE / N_FFT, 255 * SAMPLE_RATE / N_FFT, SAMPLE_RATE / 2]
