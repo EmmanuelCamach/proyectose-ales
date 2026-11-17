@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+<rect width="1000" height="300" fill="#ffffff"/>
+<text x="34" y="42" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#111111">Cálculo del vector de energía espectral por subbandas</text>
+<text x="34" y="91" font-family="Georgia,serif" font-size="22" fill="#111111">Eⱼ = (1/B) Σᵦ [(1/Mⱼ) Σₖ∈Sⱼ |Xᵦ(k)|²]</text>
+<text x="34" y="132" font-family="Arial,sans-serif" font-size="17" fill="#333333">Implementación en procesamiento.py (FFT por bloques y promedio de energía):</text>
+<g font-family="Consolas,monospace" font-size="19" fill="#111111">
+<text x="42" y="174">bloques = x[:len(x)//N_FFT*N_FFT].reshape(-1, N_FFT)</text>
+<text x="42" y="207">X = np.fft.rfft(bloques, axis=1)</text>
+<text x="42" y="240">E = np.array([np.mean(np.abs(X[:,a:b])**2, axis=1)</text>
+<text x="80" y="267">for a,b in zip(limites[:-1], limites[1:])]).T</text>
+<text x="42" y="292">vector = E.mean(axis=0)</text>
+</g></svg>
