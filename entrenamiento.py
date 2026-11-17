@@ -1,4 +1,4 @@
-"""Ejecutar desde ProyectoFinal: python entrenamiento.py
+"""Ejecutar desde la raíz del repositorio: python entrenamiento.py
 Después: python reconocimiento.py
 Dependencias: pip install numpy scipy sounddevice matplotlib
 Los archivos WAV se leen sin modificarlos.
@@ -53,7 +53,7 @@ def main():
     print(f'Evaluación de desarrollo: {errores} errores en {len(pruebas)} archivos ({error:.2f}%).')
     print('Error medido <= 5% en este conjunto.' if error <= 5 else 'NO cumple el error máximo del 5%.')
     print('Pendiente: prueba final con grabaciones nuevas de individuos independientes.')
-    print('Verifique grabaciones de distintos individuos y registre sus enlaces de Xeno-canto.')
+    print('Verifique grabaciones de distintos individuos y registre la fuente original de cada una (por ejemplo, su enlace de Xeno-canto o de eBird/Macaulay Library).')
     print('Los nombres de WhatsApp del dataset no permiten comprobar su procedencia.')
     print(f'Modelo guardado en: {RUTA_MODELO}')
     for clave in referencias:
