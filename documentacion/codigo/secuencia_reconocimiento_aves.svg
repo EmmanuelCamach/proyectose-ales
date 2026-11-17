@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1450" viewBox="0 0 1600 1450">
+<rect width="1600" height="1450" fill="#fff"/>
+<text x="70" y="85" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#111827">Secuencia principal del reconocimiento de aves</text>
+<text x="70" y="145" font-family="Arial,sans-serif" font-size="25" fill="#4b5563">Fragmentos reales del código fuente del proyecto</text>
+<g font-family="Arial,sans-serif" fill="#111827">
+<text x="70" y="225" font-size="29" font-weight="700">1. Captura de la señal de audio</text>
+<rect x="65" y="250" width="1470" height="150" rx="14" fill="#f3f4f6"/>
+<text x="105" y="305" font-family="Consolas,monospace" font-size="25">with sd.InputStream(samplerate=SAMPLE_RATE, channels=1, dtype='float32',</text>
+<text x="105" y="345" font-family="Consolas,monospace" font-size="25">                    blocksize=cantidad) as microfono:</text>
+<text x="105" y="385" font-family="Consolas,monospace" font-size="25">    audio, desbordamiento = microfono.read(cantidad)</text>
+<text x="70" y="465" font-size="29" font-weight="700">2. Transformada rápida de Fourier (FFT)</text>
+<rect x="65" y="490" width="1470" height="115" rx="14" fill="#f3f4f6"/>
+<text x="105" y="560" font-family="Consolas,monospace" font-size="27">espectros = np.fft.rfft(bloques, axis=1)</text>
+<text x="70" y="670" font-size="29" font-weight="700">3. Cálculo del vector de energías por subbandas</text>
+<rect x="65" y="695" width="1470" height="190" rx="14" fill="#f3f4f6"/>
+<text x="105" y="750" font-family="Consolas,monospace" font-size="25">energias = np.array([np.mean(np.abs(espectros[:, a:b]) ** 2, axis=1)</text>
+<text x="105" y="795" font-family="Consolas,monospace" font-size="25">                    for a, b in zip(limites[:-1], limites[1:])]).T</text>
+<text x="105" y="855" font-family="Consolas,monospace" font-size="27">vector = energias.mean(axis=0)</text>
+<text x="70" y="955" font-size="29" font-weight="700">4. Distancia euclidiana frente a los vectores de referencia guardados</text>
+<rect x="65" y="980" width="1470" height="190" rx="14" fill="#f3f4f6"/>
+<text x="105" y="1035" font-family="Consolas,monospace" font-size="25">distancias = {clave: distancia_euclidiana(vector, referencia)</text>
+<text x="105" y="1080" font-family="Consolas,monospace" font-size="25">              for clave, referencia in referencias.items()}</text>
+<text x="105" y="1135" font-family="Consolas,monospace" font-size="27">return min(distancias, key=distancias.get), distancias</text>
+<text x="70" y="1240" font-size="29" font-weight="700">5. Identificación de la especie reconocida</text>
+<rect x="65" y="1265" width="1470" height="125" rx="14" fill="#f3f4f6"/>
+<text x="105" y="1320" font-family="Consolas,monospace" font-size="26">print('Especie reconocida:', NOMBRES_ESPECIES[clave])</text>
+<text x="105" y="1365" font-family="Arial,sans-serif" font-size="21" fill="#4b5563">La especie asignada es la correspondiente al vector de referencia con menor distancia.</text>
+</g>
+</svg>
