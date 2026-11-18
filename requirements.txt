@@ -1,5 +1,5 @@
-numpy>=2.0
-scipy>=1.13
-# Solo para reconocimiento en vivo con micrófono:
-sounddevice>=0.4
+numpy>=1.24
+# Interfaz gráfica (también necesita tkinter; en Linux: paquete python3-tk):
 matplotlib>=3.8
+# Solo para captura con micrófono:
+sounddevice>=0.4

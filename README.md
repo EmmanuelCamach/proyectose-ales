@@ -1,47 +1,48 @@
-# Reconocimiento de cantos aviares por energía espectral en subbandas
+# Reconocimiento de cantos aviares por banco de filtros (energía en 3 subbandas)
 
-Proyecto de procesamiento de señales (Ingeniería de Sistemas, Universidad de los Llanos). Clasifica grabaciones de dos especies, **Hormiguero Gorjinegro (HG)** y **Turpial Amazónico (TA)**, a partir de la energía media de tres subbandas de la FFT y la distancia euclidiana a un vector de referencia por clase.
+Proyecto de procesamiento de señales (Universidad de los Llanos). Clasifica grabaciones de dos especies, **Hormiguero Gorjinegro (HG, especie A)** y **Turpial Amazónico (TA, especie B)**, con la energía relativa de tres subbandas de la FFT y la distancia euclidiana a un vector de referencia por especie.
 
 ## Cadena de procesamiento
 
-1. Lectura del WAV (se exige 48 kHz; no se remuestrea) y conversión a mono.
-2. Filtro Butterworth pasabanda de 200 Hz a 10 kHz (prototipo de 2.º orden, transformación bilineal con preajuste de frecuencia, `lfilter`).
-3. Selección del segmento de 3 s con mayor energía (ventanas cada 0,25 s).
-4. FFT por bloques de 2048 muestras (`numpy.fft.rfft`, sin ventana de ponderación).
-5. Energía media por subbanda, con fronteras `[0, 105, 255, 1025]` (≈ 0, 2460,94, 5976,56 y 24 000 Hz), promediada entre bloques.
-6. Clasificación por menor distancia euclidiana a las dos referencias. No hay umbral de rechazo: siempre devuelve HG o TA.
+1. Lectura del WAV con el módulo `wave` (PCM de 16 bits a 48 kHz; no se remuestrea). Si es estéreo se promedian los canales y se resta la componente DC.
+2. Filtro Butterworth pasabanda de 200 Hz a 10 kHz (prototipo de 2.º orden, pasabanda de 4.º orden), con preajuste de frecuencia (*prewarping*) y transformación bilineal. La ecuación en diferencias está programada a mano; el código no usa SciPy.
+3. Selección de los 3 s de mayor energía (ventanas cada 0,25 s).
+4. FFT por submuestreo par/impar (radix-2) sobre bloques de N = 2048 muestras (Δf = 23,4375 Hz).
+5. Tres subbandas: X(0–127) = 0–3000 Hz, X(128–255) = 3000–6000 Hz y X(256–1024) = 6000–24 000 Hz. Energía media por subbanda, promediada entre bloques y normalizada para que sume 1 (energías relativas, independientes de la ganancia).
+6. Distancia euclidiana a las constantes `EA` y `EB` (definidas en `reconocimiento.py`) y decisión por mínima distancia. El algoritmo no tiene umbral de rechazo: siempre devuelve HG o TA. Solo en modo micrófono se descarta el silencio (`UMBRAL_SILENCIO`).
 
 ## Estructura
 
-| Ruta | Contenido |
+| Archivo | Contenido |
 |---|---|
-| `configuracion.py` | Parámetros, rutas y fronteras de subbandas |
-| `procesamiento.py` | Carga, filtrado, selección de segmento y características |
-| `entrenamiento.py` | Referencias por clase y evaluación sobre archivos reservados |
-| `reconocimiento.py` | Clasificación de un WAV o captura desde micrófono |
-| `modelo_energias.json` | Modelo entrenado (referencias, desviaciones, resultados) |
-| `dataset/` | Grabaciones WAV por especie |
-| `documentacion/` | Figuras del código y fórmulas del informe (SVG) |
+| `configuracion.py` | Parámetros: frecuencia de muestreo, FFT, filtro, subbandas, sesiones |
+| `procesamiento.py` | Lectura, filtro Butterworth, selección de segmento y FFT par/impar |
+| `reconocimiento.py` | Constantes `EA` y `EB`, extracción de energías y decisión; interfaz de línea de comandos |
+| `entrenamiento.py` | Calcula `EA` y `EB` y mide el error por validación cruzada por sesiones |
+| `interfaz.py` | Interfaz gráfica (tkinter y matplotlib) |
+| `modelo_energias.json` | Registro de la última ejecución de `entrenamiento.py`; `reconocimiento.py` no lo lee |
 
 ## Uso
 
 ```bash
 pip install -r requirements.txt
-python entrenamiento.py                      # recalcula modelo_energias.json
-python reconocimiento.py --archivo ruta.wav  # clasifica un archivo
-python reconocimiento.py                     # micrófono (requiere sounddevice y PortAudio)
+python reconocimiento.py --archivo ruta.wav   # clasifica un archivo
+python reconocimiento.py --ejemplo-pdf        # ejemplo didáctico de 8 puntos
+python reconocimiento.py --microfono          # captura en vivo (requiere sounddevice y PortAudio)
+python reconocimiento.py --gui                # interfaz gráfica (también sin argumentos)
+python entrenamiento.py                       # recalcula EA, EB y el error (requiere dataset/)
 ```
 
-Ejecutar desde la raíz del repositorio. Si se cambia `configuracion.py`, hay que volver a entrenar.
+Ejecutar desde la raíz del repositorio. Si `entrenamiento.py` produce constantes distintas, hay que copiarlas en `reconocimiento.py`.
+
+## Dataset
+
+No está incluido en el repositorio. Para entrenar, cree `dataset/Hormiguero_Gorjinegro/` y `dataset/Turpial_Amazonico/` con archivos WAV PCM de 16 bits a 48 kHz.
 
 ## Resultados y límites
 
-- Partición por archivo con semilla 42: 164 de entrenamiento y 40 reservados (21 HG, 19 TA).
-- Resultado: 38 aciertos y 2 errores (5 %; ambos errores son TA clasificados como HG).
-- **Es una evaluación de desarrollo**, no una validación independiente: el conjunto reservado se consultó durante los ajustes y la partición es por archivo, no por individuo, por lo que puede haber fuga entre entrenamiento y prueba.
-- Las referencias HG y TA casi no se diferencian en la tercera subbanda (0,438 frente a 0,409); la separación viene de las dos primeras.
-- Las características no se normalizan, así que dependen de la ganancia y la distancia al micrófono.
-
-## Procedencia de los datos
-
-Los nombres de archivo (`WhatsApp Ptt …`) no permiten comprobar de dónde provienen las grabaciones ni a qué individuos pertenecen. Antes de usar el modelo fuera de este trabajo, documente la fuente de cada audio (por ejemplo, enlace de Xeno-canto o de eBird/Macaulay Library) y reserve grabaciones de individuos distintos para una prueba final.
+- 204 grabaciones (109 HG y 95 TA), agrupadas en 43 sesiones (11 HG y 32 TA) según la hora del nombre del archivo (separación máxima de 20 s dentro de una sesión).
+- Validación cruzada por sesiones en 5 pliegues: **3 errores en 204 (1,47 %)**: dos HG clasificados como TA (de una misma sesión) y un TA clasificado como HG. Con las constantes finales se reconocen 201 de 204.
+- Los cantos son de eBird / Macaulay Library reproducidos y grabados con el celular (notas de voz de WhatsApp), todos con fecha del 1 de junio de 2026 entre las 20:47 y las 21:47. Las sesiones se deducen de la hora del archivo, no de metadatos del individuo, y no hay un conjunto final independiente: el 1,47 % es una evaluación de desarrollo, no el desempeño esperado en campo.
+- La separación entre especies proviene de las subbandas 1 y 2; la subbanda 3 sola da cerca de 47 % de error.
+- Sin rechazo: ruido y tonos puros se asignan siempre a una especie. Un tono de 4 kHz queda a 0,042 de `EA`, igual que la distancia mediana de las grabaciones reales a su especie (0,041).
