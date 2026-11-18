@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f9fd"/><stop offset="1" stop-color="#edf2fa"/></linearGradient></defs>
-<rect width="1200" height="300" rx="24" fill="url(#bg)"/><rect x="22" y="22" width="1156" height="256" rx="18" fill="none" stroke="#d8e1ef" stroke-width="2"/>
-<g fill="#203657" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
-<text x="600" y="83" font-size="48">E<tspan baseline-shift="sub" font-size="27">i,r</tspan> =</text>
-<text x="600" y="130" font-size="45">1</text><path d="M570 144 H630" stroke="#243b63" stroke-width="3"/>
-<text x="600" y="192" font-size="43">M<tspan baseline-shift="sub" font-size="25">r</tspan>  ∑<tspan baseline-shift="sub" font-size="23">k ∈ Bᵣ</tspan> |X<tspan baseline-shift="sub" font-size="25">i</tspan>[k]|²</text>
-<text x="600" y="250" font-size="34">E<tspan baseline-shift="sub" font-size="22">r</tspan> = (1 / I) ∑<tspan baseline-shift="sub" font-size="22">i=1</tspan><tspan baseline-shift="super" font-size="22">I</tspan> E<tspan baseline-shift="sub" font-size="22">i,r</tspan></text>
-</g></svg>

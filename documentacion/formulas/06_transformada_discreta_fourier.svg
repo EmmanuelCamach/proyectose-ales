@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f9fd"/><stop offset="1" stop-color="#edf2fa"/></linearGradient></defs>
-<rect width="1200" height="260" rx="24" fill="url(#bg)"/><rect x="22" y="22" width="1156" height="216" rx="18" fill="none" stroke="#d8e1ef" stroke-width="2"/>
-<g fill="#203657" font-family="Georgia, 'Times New Roman', serif" font-size="58" text-anchor="middle"><text class="formula" x="600" y="105">X[k] = ∑<tspan baseline-shift="sub" font-size="28">n=0</tspan><tspan baseline-shift="super" font-size="28">N−1</tspan> x[n] e<tspan baseline-shift="super" font-size="30">−j 2πkn/N</tspan></text><text class="subtitle" x="600" y="183">k = 0, 1, …, N − 1</text></g></svg>
