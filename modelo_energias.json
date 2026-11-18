@@ -1,0 +1,1669 @@
+{
+  "fronteras_subbandas": [
+    0,
+    128,
+    256,
+    1025
+  ],
+  "limites_hz": [
+    0.0,
+    3000.0,
+    6000.0,
+    24000.0
+  ],
+  "grabaciones": {
+    "HG": 109,
+    "TA": 95
+  },
+  "sesiones": {
+    "HG": 11,
+    "TA": 32
+  },
+  "EA": [
+    0.029154941413965102,
+    0.9672907274749053,
+    0.003554331111129534
+  ],
+  "EB": [
+    0.9304319075723311,
+    0.056955465406837276,
+    0.01261262702083139
+  ],
+  "error_porcentaje": 1.4705882352941178,
+  "errores": 3,
+  "probadas": 204,
+  "pruebas": [
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.47.23 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05138687030371472,
+      "dB": 1.3131222493213663
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.47.33 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.053309165541311404,
+      "dB": 1.3150644361162473
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.47.41 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.011563903112450704,
+      "dB": 1.2731409586073539
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.47.48 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.055956893474267064,
+      "dB": 1.3177146910487598
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.47.55 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.01639223001456933,
+      "dB": 1.2775818395819956
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.18 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.04280842907887342,
+      "dB": 1.304718888047199
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.24 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.03239420669860421,
+      "dB": 1.290346726977928
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.31 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.030990514617940248,
+      "dB": 1.292730412862638
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.38 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.02129402647415858,
+      "dB": 1.282901141991842
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.45 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.052219299623538454,
+      "dB": 1.2097453773235913
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.58 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.056074401902421606,
+      "dB": 1.3178462246795666
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.04 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05385631567233798,
+      "dB": 1.315676425200524
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.11 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.049469438761367675,
+      "dB": 1.3112726107729682
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.17 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05506748095295111,
+      "dB": 1.3169031216224634
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.24 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05143734925758364,
+      "dB": 1.31326804531881
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.31 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05585794248030485,
+      "dB": 1.3176603945658782
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.37 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.054480419513704394,
+      "dB": 1.3163031167243953
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.44 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.052696607023445204,
+      "dB": 1.314585975748027
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.51 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05702603205617656,
+      "dB": 1.3188599616740408
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.57 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05644277545694575,
+      "dB": 1.3182587804363388
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.26.16 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.04715459414118121,
+      "dB": 1.3088968959138871
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.26.23 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.024092930907171,
+      "dB": 1.2860313960824235
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.26.30 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.03899584025957023,
+      "dB": 1.30079154539119
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.03 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05137491403923588,
+      "dB": 1.3131399750106443
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.10 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.04393698171753467,
+      "dB": 1.305348455517555
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.17 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.0495964181990536,
+      "dB": 1.311421654917753
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.25 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05284504220660052,
+      "dB": 1.3145967009343325
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.32 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.04915872750155318,
+      "dB": 1.3109776792998908
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.40 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05057180390003647,
+      "dB": 1.312332315757313
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.48 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05261732472036638,
+      "dB": 1.3144039240018741
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.46.59 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.044340836789124614,
+      "dB": 1.3061891592135195
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.05 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.052050727705429685,
+      "dB": 1.3138564952305973
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.17 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05767412421618798,
+      "dB": 1.319429811937561
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.24 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05067750215077095,
+      "dB": 1.3124810204298656
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.31 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05502071613899173,
+      "dB": 1.3168455373883432
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.38 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.04047636142019305,
+      "dB": 1.3024129333942827
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.45 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.05215850245167698,
+      "dB": 1.3138979433762767
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.47.54 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 1,
+      "dA": 0.04913429714580926,
+      "dB": 1.3109146265408913
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.04.53 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3072872153098138,
+      "dB": 0.04686410269964974
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.17.03 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.123268416763067,
+      "dB": 0.13916169051468463
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.17.10 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.1795341739296803,
+      "dB": 0.08267892944464772
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.01 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.2913791905702976,
+      "dB": 0.03175129243394244
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.20 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3297240127882182,
+      "dB": 0.06883865436676613
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.24.36 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3508204216767081,
+      "dB": 0.08969101026868567
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.28.24 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3367224766882064,
+      "dB": 0.07572873890515232
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.28.31 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3349795517340632,
+      "dB": 0.07399154182548802
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.32.58 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3465110697371785,
+      "dB": 0.08490570495500055
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.33.06 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3512139113808657,
+      "dB": 0.09001120532482834
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.09 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.1444785089646372,
+      "dB": 0.5123902890054566
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.42 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3531592973100675,
+      "dB": 0.09200651864077812
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.48 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.3520002168383025,
+      "dB": 0.09086102129318477
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.58 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 1,
+      "dA": 1.335306987604166,
+      "dB": 0.0743260430575219
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.48.50 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.03468758599053055,
+      "dB": 1.3111403767944567
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.48.58 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.036694568661986414,
+      "dB": 1.3142924221172156
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.49.06 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.041423121613644275,
+      "dB": 1.319306941155345
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.49.14 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.10171046838761202,
+      "dB": 1.1762935911834922
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.35.29 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.026106299199358373,
+      "dB": 1.2519348899213794
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.35.38 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.03598050813703708,
+      "dB": 1.3137701905033363
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.35.45 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.02552026700495005,
+      "dB": 1.303234991093811
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.35.59 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.02244289439551714,
+      "dB": 1.3001188166989448
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.06 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.024610510702773782,
+      "dB": 1.258308725113537
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.13 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.00488820074399201,
+      "dB": 1.2750803959195653
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.26 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.03585470742846281,
+      "dB": 1.3137639333566187
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.33 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.03534404585029245,
+      "dB": 1.3130647346611952
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.40 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.12197180112918973,
+      "dB": 1.1559507118860035
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.46 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.028752930089495726,
+      "dB": 1.3066735361476534
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.53 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.029238286252988577,
+      "dB": 1.3069427977984898
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.59 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.03351342046008222,
+      "dB": 1.311278420899219
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.37.06 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.04166302250991124,
+      "dB": 1.3194171743639203
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.37.13 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.018933239235259525,
+      "dB": 1.296498192769645
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.37.25 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 2,
+      "dA": 0.039061363048093475,
+      "dB": 1.3168195509879659
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.05.40 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.1329852315362305,
+      "dB": 0.14585134519879828
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.17.31 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.1942877106273675,
+      "dB": 0.08492270938272913
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.06 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 0.8237889072637005,
+      "dB": 0.45420933299680455
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.22 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3566970476959466,
+      "dB": 0.08056953173541323
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.28.56 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3305804676519157,
+      "dB": 0.05529565644076013
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.29.05 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3014023780742618,
+      "dB": 0.05079742795505782
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.29.19 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.314177630195101,
+      "dB": 0.04839873362712305
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.33.42 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.2612129506518628,
+      "dB": 0.023392747235640585
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.33.49 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.309051438742005,
+      "dB": 0.03323677457664134
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.33 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3632655203718862,
+      "dB": 0.08676789306221169
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.39 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3665222799411567,
+      "dB": 0.09024009104486294
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.46 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3657401008949042,
+      "dB": 0.08946421127743513
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.53 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.367047839311647,
+      "dB": 0.09076100380528879
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.05 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3678354924620775,
+      "dB": 0.09154284363981625
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.18 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3662871141396942,
+      "dB": 0.09000164873843933
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.30 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 2,
+      "dA": 1.3660825003749537,
+      "dB": 0.08980508773783896
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.49.37 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.013483016807961705,
+      "dB": 1.3205598422127105
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.49.45 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.013754555271436856,
+      "dB": 1.3214480419330454
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.49.53 PM.wav",
+      "real": "HG",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 0.9580865761354141,
+      "dB": 0.3498672368369219
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.50.00 PM.wav",
+      "real": "HG",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.3616887441701089,
+      "dB": 0.05650892874228101
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.50.07 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.014590129200128607,
+      "dB": 1.3219025851698472
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.06 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.06788895710798061,
+      "dB": 1.2411660350095663
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.22 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.005177766548482172,
+      "dB": 1.3038873724247997
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.28 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.01786930350477988,
+      "dB": 1.3251481569296473
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.39 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.015524620991437199,
+      "dB": 1.3227718303223388
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.45 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.018767433006168198,
+      "dB": 1.3261713217105737
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.02 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 3,
+      "dA": 0.021046502148862806,
+      "dB": 1.3283912111336118
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.06.08 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.3487958017632788,
+      "dB": 0.044578369969742876
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.17.54 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.233983523012887,
+      "dB": 0.07538252474413241
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.18.12 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.2789468045451926,
+      "dB": 0.03320468967616744
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.18.31 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.2395365321704852,
+      "dB": 0.06910716449029933
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.18.38 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.060354207020104,
+      "dB": 0.24784101444502485
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.18.46 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.1412695757456857,
+      "dB": 0.16718364908086794
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.19.01 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.2340002808273374,
+      "dB": 0.07535811943052549
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.43 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.347875049048222,
+      "dB": 0.04194249396557058
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.25.51 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.3709405166397002,
+      "dB": 0.06499614314494136
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.29.46 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.3066577982444398,
+      "dB": 0.016138807878538036
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.34.44 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.3154253464549293,
+      "dB": 0.01852181420859577
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.36.57 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.321290776376967,
+      "dB": 0.013603530524811894
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.37.04 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 3,
+      "dA": 1.2558785801041608,
+      "dB": 0.05325965162721327
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.53.15 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04269444552774765,
+      "dB": 1.294852094266279
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.53.21 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.03584720357483995,
+      "dB": 1.3229254456160442
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.53.29 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.020268745594825742,
+      "dB": 1.3069425469421923
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.53.35 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.018630285689370942,
+      "dB": 1.3053164228350027
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.53.43 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.03574199370258294,
+      "dB": 1.2515267042006628
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.02 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04331236260754341,
+      "dB": 1.3304089565104396
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.09 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.046251800189173714,
+      "dB": 1.3332398822033888
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.16 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.03594767530609605,
+      "dB": 1.3227611209521786
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.23 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04738596889929502,
+      "dB": 1.3343729954919992
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.30 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04365911613783569,
+      "dB": 1.330640702450449
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.37 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04679175102835878,
+      "dB": 1.3337725922210488
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.43 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04414952296431895,
+      "dB": 1.3312006883727374
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 8.54.50 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04066174046755172,
+      "dB": 1.327757703381166
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.31 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.02379208055906588,
+      "dB": 1.3108739292626403
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.38 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.006044813691014563,
+      "dB": 1.291751431213909
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.44 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.026957284303951123,
+      "dB": 1.3137715621432737
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.51 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.022180836267987305,
+      "dB": 1.308896156651201
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.00 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.049270527535220675,
+      "dB": 1.3362034352059642
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.07 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.049001946418962244,
+      "dB": 1.3359355090217224
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.21 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.0446051845693815,
+      "dB": 1.3315413481339637
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.35 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.0490133494964302,
+      "dB": 1.3359537653943485
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.43 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.04898060290491367,
+      "dB": 1.335919219675247
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.06.57 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 0.9227535136579781,
+      "dB": 0.39632920256059034
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.07.15 PM.wav",
+      "real": "TA",
+      "predicha": "HG",
+      "pliegue": 4,
+      "dA": 0.6257228001813733,
+      "dB": 0.7290508066677013
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.19.53 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3213047830310944,
+      "dB": 0.03435018680577155
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.20.01 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3401502863714274,
+      "dB": 0.053055295174111866
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.27.00 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3433347108220994,
+      "dB": 0.056954707387930174
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.27.09 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.2711156786121156,
+      "dB": 0.016022226333025975
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.30.10 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 0.7781386715004122,
+      "dB": 0.5089817151373489
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.30.17 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.2914547300630432,
+      "dB": 0.009914609790002032
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.30.34 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3608847031009097,
+      "dB": 0.0743047686391008
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.30.41 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.361640925870249,
+      "dB": 0.07507929648048785
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.31.00 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.354126712116205,
+      "dB": 0.06774630236774545
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.31.07 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3604828341072217,
+      "dB": 0.0740416070125782
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.35.18 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.1353356773632064,
+      "dB": 0.30908153317563963
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.37.37 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3602913505843393,
+      "dB": 0.0738781306307978
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.37.50 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 4,
+      "dA": 1.3602510291967258,
+      "dB": 0.07379419492227829
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.23.19 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.01842615554336727,
+      "dB": 1.269443036466722
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.23.28 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.042926814085866245,
+      "dB": 1.3031756917670498
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.23.34 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.029325072087222653,
+      "dB": 1.2311359475711154
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.23.42 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.06273693041138895,
+      "dB": 1.23904893274946
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.23.49 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04053798642700437,
+      "dB": 1.3007964101677456
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.23.56 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.018999279723115128,
+      "dB": 1.27927486757785
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.23 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.026612014061334642,
+      "dB": 1.286833117391446
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.33 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.0448989543470848,
+      "dB": 1.21557786836848
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.50 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04380766094194809,
+      "dB": 1.3040433579204123
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.43.57 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.013872194532052906,
+      "dB": 1.246838642835971
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.07 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04383626757042322,
+      "dB": 1.304074056537053
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.14 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04105876721790957,
+      "dB": 1.3012996108373627
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.29 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.043437974962341204,
+      "dB": 1.3036706710383752
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.35 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04432452854831759,
+      "dB": 1.3045657286874712
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.43 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04394053365942032,
+      "dB": 1.3041798389498536
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.44.54 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04408517576865266,
+      "dB": 1.3043188766711116
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.45.03 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.038608082514271634,
+      "dB": 1.221882252186342
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.45.09 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.08837571182584586,
+      "dB": 1.2287585711803364
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.45.16 PM.wav",
+      "real": "HG",
+      "predicha": "HG",
+      "pliegue": 5,
+      "dA": 0.04305615361414045,
+      "dB": 1.3032877116922348
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.16.24 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2333722476589883,
+      "dB": 0.033699389885392596
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.16.39 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 0.8162610196033111,
+      "dB": 0.44447112723793575
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.20.39 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.227999837451838,
+      "dB": 0.036781592564419166
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.20.47 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2715761506864376,
+      "dB": 0.024306092600745302
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.27.30 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.359661054687238,
+      "dB": 0.10188001444980263
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.27.46 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3437651427743398,
+      "dB": 0.08472070401394145
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.31.30 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3567182509626776,
+      "dB": 0.09913357645093439
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.31.47 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3649128177329473,
+      "dB": 0.10716798228770819
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.31.59 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3655483359246756,
+      "dB": 0.10778101525863343
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.32.05 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3645946647550775,
+      "dB": 0.10678994948019542
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.32.20 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.354604537066557,
+      "dB": 0.09701891920990248
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.35.39 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3577757042524627,
+      "dB": 0.09960883964126555
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.38.11 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3617135673035934,
+      "dB": 0.10367295129030386
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.38.27 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3645717499147658,
+      "dB": 0.10675963304397576
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.38.41 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3647846337778275,
+      "dB": 0.10701321199740409
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.38.53 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3635279782690974,
+      "dB": 0.10583104362220803
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.39.09 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3622077778242705,
+      "dB": 0.10453893657800863
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.39.23 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3637879801924957,
+      "dB": 0.10607770452829866
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.39.36 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3654657999533144,
+      "dB": 0.10772015785367113
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.39.50 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2523342111122648,
+      "dB": 0.016630042458670457
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.07 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3598625477244914,
+      "dB": 0.10218315648088101
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.13 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3578640341286656,
+      "dB": 0.10013670016986496
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.20 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3635417249340949,
+      "dB": 0.10579805132907459
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.27 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3615274460008886,
+      "dB": 0.10382877980106164
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.34 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.356409684065878,
+      "dB": 0.09888289192382128
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.42 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.356396994624036,
+      "dB": 0.09871162460297968
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.48 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3610020142102721,
+      "dB": 0.10330336085473686
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.40.56 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2239141701407554,
+      "dB": 0.04040853647491984
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.03 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3409597778071172,
+      "dB": 0.08382846544205226
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.10 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2807595173921527,
+      "dB": 0.030448170931627116
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.17 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.354647723269387,
+      "dB": 0.09678008396122882
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.24 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2965664048791787,
+      "dB": 0.04288385592730779
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.31 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.241759802909384,
+      "dB": 0.0292223544626997
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.37 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.284361271639339,
+      "dB": 0.03302513085564703
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.41.55 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.3054843883772271,
+      "dB": 0.05061720116198895
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.05 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.2373801212963287,
+      "dB": 0.04667759742408105
+    },
+    {
+      "archivo": "WhatsApp Ptt 2026-06-01 at 9.42.21 PM.wav",
+      "real": "TA",
+      "predicha": "TA",
+      "pliegue": 5,
+      "dA": 1.0459684238049993,
+      "dB": 0.2151977426124441
+    }
+  ]
+}
